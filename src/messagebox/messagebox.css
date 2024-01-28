@@ -1,0 +1,22 @@
+.messageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .leftBox {
+    align-self: flex-start; 
+    background-color: lightblue; 
+    border-radius: 10px;
+    padding: 8px;
+    max-width: 70%; 
+  }
+  
+  .rightBox {
+    align-self: flex-end;
+    background-color: lightgreen; 
+    border-radius: 10px;
+    padding: 8px;
+    max-width: 70%; 
+  }
